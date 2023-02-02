@@ -1,0 +1,22 @@
+{
+  "name": "frontend-re--vertical",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "co": "sui-mono commit"
+  },
+  "workspaces": [
+    "apps/*",
+    "components/*",
+    "domain/*",
+    "literals/*"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@s-ui/mono": "^2.34.0"
+  }
+}
